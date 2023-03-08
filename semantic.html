@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Layout </title>
+
+<style>
+
+    body{
+        margin:0;
+    }
+
+.header{
+    display: block;
+    background-color: blue;
+    font-style: Arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.nav-bar{
+    display: block;
+    background-color: rgb(116, 116, 175);
+    margin-top:0;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main-content-body{
+    display: block;
+    background-color: rgb(217, 224, 91);
+    margin:0;
+
+}
+
+.Main-content{
+    text-align: center;
+
+}
+
+.flexbox{
+    display: flex 
+}
+
+.section-one{
+    background-color: rgb(201, 75, 178);
+    height: 550px;
+    text-align: center;
+    padding-top: 0;
+    flex: 1;    
+   overflow:hidden;
+}
+.article-one{
+    background-color: green;
+   height: 300px;
+   margin: 0;
+   padding: 0; 
+   display:inline-table
+   
+}
+
+.article-one-title{
+margin-top: -10px;
+padding-top: 25px;
+}
+
+.first-paragraph{
+ 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.aside-division{
+    background-color: rgb(121, 216, 248);
+    height: 550px;
+    margin: 0;
+   padding: 0;
+   width: 200px;
+}
+
+.inside-aside-div{
+    margin-left: 10px;
+
+
+}
+.section-two{
+    background-color: darkgray;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.article-two{
+   background-color: green;
+    padding: 0px;
+    margin-top: 10px;
+    height: 150px;
+    overflow:hidden;
+}
+
+.article-two-title{
+    margin-top:0px;
+    padding-top: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.article-two-paragraph{
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+
+.article-three{
+     background-color: green;
+    padding-top:  20px;
+    margin-top: 20px;
+    height: 200px;
+    overflow:hidden;
+}
+.article-three-title{
+    margin-top: -20px;
+    padding-top: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.article-three-paragraph{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.section-three{
+    text-align: center;
+}
+.section-three-paragraph{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.copyrigth{
+    text-align: center;
+    background-color: rgb(178, 88, 201);
+    padding: 50px;
+}
+.image-sample-one{
+    height: 150px;
+    width: 150px;
+    float: left;
+ 
+  
+}
+.image-sample-two{
+    height: 150px;
+    width: 150px;
+    float:right
+}
+.text-box{
+    transition: .35ms;
+}
+
+.text-box button:hover{
+background-color: aquamarine;
+
+border-color: rgb(0, 191, 255);
+border-radius:2px ;
+}
+
+.text-box button:active{
+    background-color: rgb(41, 147, 193);
+}
+</style>
+
+</head>
+
+
+<body>
+    <h1 class="header">header</h1>
+
+    <nav class="nav-bar">navigation</nav>
+
+    <main class="main-content-body">
+
+        <h2 class="Main-content">Main Content</h2>
+
+   
+  <div class="flexbox">
+
+    <div class="section-one"> 
+
+        <section>
+
+     <h3>Section 1</h3>
+
+            <article class="article-one">
+
+            <h4 class="article-one-title">
+                Article 1 inside Section Area
+            </h4>
+
+            <p class="first-paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eius quasi tenetur modi magnam natus facilis odio nihil iste eum, asperiores similique provident iure, animi voluptatum quae, commodi debitis aut repellendus dicta. Quo rerum porro, architecto, provident quam delectus et accusamus in qui blanditiis molestiae, ipsum voluptate quaerat? In quo architecto facilis eaque magnam fugiat deserunt adipisci a porro neque ad deleniti eius, aliquid voluptates tenetur dignissimos omnis, quod provident voluptatum repellendus? Natus aspernatur deserunt possimus explicabo blanditiis at ducimus nulla fuga magni cumque impedit porro rerum laborum voluptatum qui doloribus, consectetur, voluptates omnis, voluptatibus quisquam libero ut quidem iusto. Odio rerum illum voluptas sunt, aliquam doloribus nihil temporibus quas veniam magni quidem cupiditate voluptatum nulla sit placeat quaerat provident, mollitia perferendis sed quo dolorem tempora! Aliquid neque accusamus porro dolore. Rerum, nesciunt. Doloremque quaerat minus cum a porro temporibus in ipsam tempora, ducimus aliquam esse perferendis modi iste, ea, eius tempore sapiente sed! Quisquam totam deserunt veniam. Quasi aliquam veniam laudantium ut quibusdam corporis cumque sapiente quo totam, placeat possimus? Voluptatibus facilis beatae, dicta nesciunt, sequi repellendus numquam veniam, obcaecati doloribus nobis mollitia vero impedit? Veritatis expedita, tempore sit ipsa amet ea, eveniet qui maxime fugit minus ab voluptas.
+            </p>
+            </article>
+
+         </section>
+         
+     </div>
+
+     <div class="aside-division">
+    
+        <aside class="inside-aside-div">
+
+        <h3>Aside</h3>
+
+            <ul style: circle>
+                <li>Mcdo</li>
+                <li>Jabe</li>
+                <li>Chowking</li>
+                <li>Mang Inasal</li>
+                <li>Chooks</li>
+         </ul> 
+    
+         <ol>
+            <li>burger</li>
+            <li>spaghette</li>
+            <li>chicken</li>
+            <li>rice</li>
+            <li>coke float</li>
+          </ol>
+          
+          <dl>
+            <dt>
+                Coffee
+                <dd>
+                    Hot And Cold
+                </dd>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+                Milk tea
+                <dd>
+                    Sugar level 100%
+                </dd>
+            </dt>
+          </dl>
+        </aside>
+        </div>
+       
+    </div>  
+
+            <section class="section-two">
+
+            
+                <h3>
+                    Section 2
+                </h3>
+
+              <article class="article-two">
+                     
+                <img class="image-sample-one" src="images/sample1.jpg" alt="sample1  ">
+            
+
+                    <h4 class="article-two-title">
+                        Article 2 inside Section 2 Area- Title
+                    </h4>
+                    
+                    <p class="article-two-paragraph">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet exercitationem magni id nemo fuga voluptatem, hic necessitatibus laudantium nobis quaerat enim quam perspiciatis sint deserunt eaque ut ratione aliquam illum recusandae officiis qui iste harum. Fuga natus itaque at odit. Fugiat consequuntur, veniam cupiditate doloremque quisquam adipisci perspiciatis ab sunt.
+                    </p>
+
+                </article>
+
+                <article class="article-three">
+
+                    
+                    
+                    <img class="image-sample-two"
+                    src="images/sample2.jpg" alt="sample2">
+                    
+              
+                     <h4 class="article-three-title">
+                         Article 3 inside Section 3 Area - Title
+                     </h4>
+                  
+                        <p class="article-three-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui natus placeat quisquam repellat incidunt nostrum reiciendis accusantium. Harum aperiam ratione vel suscipit sunt ea pariatur dolorem fugiat exercitationem sint aliquam qui, ipsam, quis rem ex mollitia itaque at saepe deserunt ipsum labore doloribus eius maxime. Laborum cupiditate, atque ullam expedita obcaecati blanditiis. Modi laboriosam, magnam consequatur, voluptatum vel molestiae soluta quos assumenda dignissimos labore facere, facilis autem suscipit perspiciatis officiis ea deleniti unde dolores? In corrupti eveniet vitae nihil, dicta sunt porro praesentium molestiae deleniti vero consectetur id laudantium animi cumque, totam iste voluptatibus consequatur repudiandae, beatae qui ullam. Qui?
+                        </p>
+                  
+                </article>
+
+         </section>
+</main> 
+    <section class="section-three">
+
+        <h3>
+            Section 3
+        </h3>
+            <p class="section-three-paragraph">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate possimus vitae, sapiente ut illo harum at amet, expedita omnis nobis provident fugit quisquam repellendus natus fuga aliquam beatae! Quisquam beatae illum error minus quidem iste ipsum. Quaerat amet, consequuntur deleniti nemo nihil quae facilis eum fugiat, aliquam beatae recusandae adipisci!
+            </p>
+
+            <div class="text-box">
+
+        Your Name <input type="text" placeholder="type here"
+        >
+            <button>submit</button>
+
+            </div>
+   
+    </section>
+
+<footer class="copyrigth">
+    <h3>&#169;Copyrigth 2023</h3>
+</footer>
+</body>
+</html>
