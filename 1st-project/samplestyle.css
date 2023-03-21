@@ -1,0 +1,7 @@
+.d-flex .list-group{ 
+    position: fixed;
+}
+
+.d-flex .card{
+    position: relative;
+} 

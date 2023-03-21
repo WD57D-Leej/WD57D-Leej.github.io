@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Card</title>
+
+<style>
+
+    body{
+
+        margin: 0;
+        padding-left:30px ;
+        padding-top: 30px;
+        width: 1900px;
+       
+    }
+
+    .skill-cards-container{
+
+        background-color: burlywood;
+        display: flex;
+        flex-direction: row;
+        height: 550px;
+        width: 1750px;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        border-color: rgb(132, 132, 85);
+        border: solid;
+        border-style: groove;
+        border-radius: 10px;
+        border-width: 50px;
+        justify-content: space-evenly;
+      
+    }
+    .skill-card-driving{
+       
+        text-align: center;
+        background-color: rgb(42, 39, 46);
+        box-shadow: 10px 10px 20px rgba(9, 12, 12, 0.755);
+        height: 500px;
+        width: 330px;
+        border-radius: 5px;
+        border-style:hidden;
+        border-width: 10px;
+        border-color: rgb(41, 41, 122);
+        margin: 15px;
+        margin-left: 30px;
+        position: relative;
+        
+    }
+    .skill-card-driving::before{
+
+        content:"";
+        background-image: url(skillcard-image/road.jpg);
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.4;
+
+         }
+         .image-driving{
+
+        border:solid;
+        color: rgb(134, 154, 174);
+        margin-top: 25px;
+        border-radius: 3px;
+        border-style:double;
+        border-width: 10px;
+        height: 250px;
+        width: 250px;  
+        position: relative;
+         }
+
+        .skill-card-driving h2{
+
+        margin-top : 10px;
+        padding-bottom: 10px;
+        color: rgb(185, 231, 234);
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+       
+      }
+
+      .skill-card-driving p{
+        margin-left: 8%;
+        margin-right: 8%;
+        font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(185, 231, 234);
+        position: relative;
+        box-shadow: inset 5px 5px 5px 5px rgba(108, 106, 130, 0.689);
+        height: 100px;
+        padding-top: 20px;
+        margin-top: -15px;
+      }
+
+    .skill-card-guitar{
+       
+       text-align: center;
+        background-color: rgb(30, 23, 12);
+       box-shadow: 10px 10px 20px rgb(38, 148, 158);
+       height: 500px;
+       width: 330px;
+       border-radius: 5px;
+       border-style:hidden;
+       border-width: 10px;
+       border-color: rgb(41, 41, 122);
+       margin: 15px;
+       margin-left: 30px;
+       position: relative; 
+       
+    
+   }
+   .skill-card-guitar::before{
+       content:"";
+       background-image: url(skillcard-image/guitar.jpg);
+       position: absolute;
+       top:0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       opacity: 0.3;
+       background-size:cover;
+    }
+
+    .image-guitar{
+
+        border:solid;
+        color: rgb(59, 159, 163);
+        margin-top: 25px;
+        border-radius: 3px;
+        border-style:double;
+        border-width: 10px;
+        height: 250px;
+        width: 250px;  
+        position: relative;
+    }
+
+    .skill-card-guitar h2{
+        margin-top : 10px;
+        padding-bottom: 10px;
+        color: rgb(185, 231, 234);
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+       
+      }
+      .skill-card-guitar p{
+
+        margin-left: 8%;
+        margin-right: 8%;
+        font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(185, 231, 234);
+        position: relative;
+        box-shadow: inset 5px 5px 5px 5px rgb(59, 159, 163);
+        height: 100px;
+        padding-top: 20px;
+        margin-top: -15px;
+      }
+
+      .skill-card-fastlearner{
+       
+        text-align: center;
+        background-color: rgb(17, 17, 67);
+        box-shadow: 10px 10px 20px rgb(41, 61, 140);
+        height: 500px;
+        width: 330px;
+        border-radius: 5px;
+        border-style:hidden;
+        border-width: 10px;
+        margin: 15px;
+        margin-left: 30px;
+        position: relative;
+        
+    }
+    .skill-card-fastlearner::before{
+        content:"";
+        background-image: url(skillcard-image/fast-learner-background.jpg);
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.5;
+        background-size: 800px ;    
+        
+    }
+    
+    .image-fastlearner{
+
+        border:solid;
+        color: rgba(70, 227, 222, 0.592);
+        margin-top: 25px;
+        border-radius: 3px;
+        border-style:double;
+        border-width: 10px;
+        height: 250px;
+        width: 250px;  
+        position: relative;
+
+    }
+    .skill-card-fastlearner h2{
+        
+        margin-top : 10px;
+        padding-bottom: 10px;
+        color: rgb(185, 231, 234);
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+       
+      }
+
+      .skill-card-fastlearner p{
+
+        margin-left: 8%;
+        margin-right: 8%;
+        font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(185, 231, 234);
+        position: relative;
+        box-shadow: inset 5px 5px 5px 5px rgba(70, 227, 222, 0.592);
+        height: 100px;
+        padding-top: 20px;
+        margin-top: -15px;
+
+      }
+    .skill-card-visual{
+       
+       text-align: center;
+       background-color: rgb(19, 103, 131);
+       box-shadow: 10px 10px 20px rgb(9, 97, 46);
+       height: 500px;
+       width: 330px;
+       border-radius: 5px;
+       border-style:hidden;
+       border-width: 10px;
+       border-color: rgb(105, 105, 214);
+       margin: 15px;
+       margin-left: 30px;
+       position: relative;
+       
+   }
+   .skill-card-visual::before{
+       content:"";
+       background-image: url(skillcard-image/visual-background.jpg);
+       position: absolute;
+       top:0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       opacity: 0.4;
+       background-size: cover;
+   }
+
+    .image-visual{
+
+        border:solid;
+        color: rgb(34, 157, 147);
+        margin-top: 25px;
+        border-radius: 3px;
+        border-style:double;
+        border-width: 10px;
+        height: 250px;
+        width: 250px;  
+        position: relative;
+    }
+
+      .skill-card-visual h2{
+        margin-top : 10px;
+        padding-bottom: 10px;
+        color: rgb(185, 231, 234);
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+       
+      }
+
+      .skill-card-visual p{
+        margin-left: 8%;
+        margin-right: 8%;
+        font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(185, 231, 234);
+        position: relative;
+        box-shadow: inset 5px 5px 5px 5px rgb(34, 157, 147);
+        height: 100px;
+        padding-top: 20px;
+        margin-top: -15px;
+      }
+
+   
+</style>
+
+</head>
+<body>
+
+<div class="skill-cards-container">
+    
+    <div class="skill-card-driving">
+        
+        <img class="image-driving" src="/skillcard-image/driving.jpg" alt="Driving Skill">
+       
+        <h2 class="skill-name-driving">"Driving Skill"</h2>
+
+        <p class="skill-description-driving">"Nevermind The Careless One's,
+             <br>Patience Lead Our Wayback Home" </p>
+
+    </div>
+    
+    <div class="skill-card-guitar">
+        
+        <img class="image-guitar" src="/skillcard-image/guitarist.jpg" alt="Guitar Skill">
+
+        <h2 class="skill-name-guitar">"Guitar Skill"</h2>
+
+        <p class="skill-description-guitar">"Loving The Music, 
+        Relaxing And Energizing,  A Stress Reliever Of Mine And 
+    A Hobby" </p>
+        
+    </div>
+    
+    <div class="skill-card-fastlearner">
+        
+        <img class="image-fastlearner" src="/skillcard-image/fast-learner.jpg" alt="Fast-learner">
+
+        <h2 class="skill-name-fastlearner">"Fast Learner""</h2>
+
+        <p class="skill-description-fastlearner">" When you know better you do better.
+            Don't let what you can't do stop you from doing what you can do."
+        </p>
+
+    </div>
+    
+    <div class="skill-card-visual">
+        
+        <img class="image-visual" src="/skillcard-image/visual-learner.jpg" alt="Visual-learner">
+
+        <h2 class="skill-name-visual">"Visual-Learner"</h2>
+
+        <p class="skill-description-visual">"Learning Like a Pro?
+            That's Me When I'm In My Glasses." <br> Fun Learning In A Hands On Activity Is Always Easy.
+        </p>
+
+    </div>
+
+</div>
+
+    <hr>
+
+<div style="margin: 5%;">
+    <h2> 
+        Assignment Title: Skill Cards UI Design using HTML Box Layout and CSS Selectors
+    </h2>
+    <h3>
+        Assignment Description:
+    </h3>
+    <p>
+        For this assignment, you will be creating a skill cards user interface (UI) using your knowledge of HTML box layout and CSS selectors. The skill cards UI will showcase your ability to design and layout information in a clear and visually appealing manner.
+        <ol>Instructions:
+            <li>Create a new HTML file and name it "skill-cards.html".</li>
+            <li>Inside the HTML file, create a container div element with an id of "skill-cards-container". This container div will hold all of the skill cards.</li>
+            <li>Create at least four div elements with class names of "skill-card". These four div elements will represent four different skills that you possess.</li>
+            <li>Inside each skill card div, create an image element that represents the skill. The image element should have a class name of "skill-image".</li>
+            <li>Underneath the image element, create a heading element that displays the name of the skill. The heading element should have a class name of "skill-name".</li>
+            <li>Underneath the heading element, create a paragraph element that describes the skill. The paragraph element should have a class name of "skill-description".</li>
+            <li>Use CSS selectors to style the skill cards UI. Each skill card should have a <b> border</b>, <b>a background color</b> , and a <b>box shadow</b> . The skill image should be centered within the skill card, and the skill name and description should be positioned below the image.</li>
+            <li>Use CSS box layout to arrange the skill cards. The skill cards should be displayed in a row, with equal spacing between each card. The container div should have a width of 80% and be centered on the page.</li>
+            <li>Save your HTML and CSS files and submit them as a single zip file for grading.</li>
+        </ol>
+        <h3>
+            Grading Criteria:
+        </h3>
+        <ul>Your skill cards UI will be graded based on the following criteria:
+            <li>Correct use of HTML box layout and CSS selectors</li>
+            <li>Visual appeal and organization of information</li>
+            <li>Consistency in design and layout of each skill card</li>
+            <li>Proper use of file naming conventions and submission of files in a zip format</li>
+        </ul>
+        <h3 style="padding-bottom: 100px;">
+            Good luck!  </style>
+        </h3>
+    </p>
+</div>
+</body>
+</html>

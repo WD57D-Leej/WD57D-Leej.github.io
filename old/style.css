@@ -1,0 +1,68 @@
+
+/* navbar */
+
+.navbar{
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    color: rgb(43, 49, 88);
+    text-align: center;
+  }
+  .navbar a:hover {
+    background-color: rgb(231, 245, 253);
+  }  
+
+/* landing page */
+
+section img{
+    border-radius: 3px;
+    border: solid rgb(196, 186, 215);
+}
+section .Definition{
+    margin-left: 20px;
+    display:block;
+}
+section .Definition .card-text-hi{
+    font-family: 'Patua One', Arial, Helvetica, sans-serif;
+    font-size: 80px; 
+    margin-bottom: -10px;
+}
+section .Definition .card-text-name{
+    font-family: 'Patua One', Arial, Helvetica, sans-serif;
+    font-size: 120px;  
+    margin-bottom: -10px;
+}
+section .Definition .card-text-skills{
+    font-family: 'Patua One', Arial, Helvetica, sans-serif;
+    font-size: 35px;  
+}
+section .Definition .card-text-skill-description{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* footer */  
+  
+.footer-socialmedia-button  .btn:hover{
+    background-color: rgb(216, 222, 241);
+}
+.footer-socialmedia-button  .btn:active{
+    background-color: rgb(138, 145, 176);
+
+}    
+.footer-copyrigth {
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(197, 202, 206);
+    color:black;
+    text-align: center;
+}

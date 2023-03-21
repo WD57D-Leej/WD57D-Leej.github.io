@@ -1,0 +1,22 @@
+nav a:hover{
+    background-color: rgb(18, 20, 8);
+}
+nav a:active{
+    background-color: rgb(44, 42, 42);
+}
+/* footer */  
+  
+.footer-socialmedia-button  .btn:hover{
+    background-color: rgb(216, 222, 241);
+}
+.footer-socialmedia-button  .btn:active{
+    background-color: rgb(138, 145, 176);
+
+}    
+.footer-copyrigth {
+   
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

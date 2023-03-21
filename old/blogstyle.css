@@ -1,0 +1,19 @@
+/* navbar */
+
+.navbar{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+  color: rgb(43, 49, 88);
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: rgb(231, 245, 253);
+}  
