@@ -1,11 +1,13 @@
+
+/* navbar */
 nav a:hover{
     background-color: rgb(18, 20, 8);
 }
 nav a:active{
     background-color: rgb(44, 42, 42);
 }
-/* footer */  
-  
+
+/* footer */   
 .footer-socialmedia-button  .btn:hover{
     background-color: rgb(216, 222, 241);
 }

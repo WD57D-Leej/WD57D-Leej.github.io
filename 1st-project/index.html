@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Patua+One&display=swap" rel="stylesheet">
 </head>
-  <body class="bg-black">
+  <body class="bg-black bg-gradient">
     <!-- header here -->
     <header>
         <!-- navbar here
@@ -33,10 +33,10 @@
           </nav>
     </header> -->
         <!-- navbar here ! -->
-        <nav class="navbar navbar-expand-lg bg-black">
+        <nav class="navbar navbar-expand-lg  bg-dark">
           <div class="container-fluid">
             <img src="./logo/golden logo.png" alt="..." height="70px">
-            <button class="navbar-toggler  bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler  bg-body-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -75,29 +75,29 @@
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active" >
-                  <img src="./logo/Untitled-3bg.png" class="d-block w-100" alt="..." height="700px">
-                   <div class="carousel-caption d-md-block">
-                        <div class="d-flex-column">
-                            <div class="d-flex justify-content-center container-fluid">
-                                <img src="./logo/Price logo.png" alt="" height="300px">
+              <div class="carousel-item active">
+                  <img src="./logo/Untitled-3bg.png" class="w-100 d-block" alt="..." height="600px">
+                   <div class="carousel-caption d-md-flex-column">
+                        <div>
+                            <div style="height: 250px;" class="d-flex justify-content-center">
+                                <img class="img-fluid" src="./logo/Price logo.png" alt="">
                             </div>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <div class="d-sm-none d-md-block d-none d-sm-block pt-n5">
-                                <img src="./products/cheesecake-1.gif" alt="" height="300px">
+                            <div class="d-sm-none d-md-flex d-none d-sm-flex" style="height: 220px;">
+                                <img class="img-fluid" src="./products/cheesecake-1.gif" alt="">
                             </div>
-                            <div class="pt-n5">
-                                <img src="./products/matcha-1.gif" alt="" height="350px">
+                            <div class="d-flex" style="height: 270px;">
+                                <img class="img-fluid" src="./products/matcha-1.gif" alt="">
                             </div>
-                            <div class="pt-n5">
-                                <img src="./products/okinawa-1.gif" alt="" height="400px">
+                            <div class="d-flex" style="height: 320px;">
+                                <img class="img-fluid" src="./products/okinawa-1.gif" alt="">
                             </div>
-                            <div class="pt-n5">
-                                <img src="./products/taro-1.gif" alt="" height="350px">
+                            <div class="d-flex" style="height: 270px;">
+                                <img class="img-fluid" src="./products/taro-1.gif" alt="">
                             </div>
-                            <div class="d-sm-none d-md-block d-none d-sm-block pt-n5">
-                                <img src="./products/red-velvet-1.jpg" alt="" height="300px">
+                            <div class="d-sm-none d-md-flex d-none d-sm-flex" style="height: 220px;">
+                                <img class="img-fluid" src="./products/red-velvet-1.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -133,519 +133,339 @@
         </div>
     </section>
     
-    <section>
-      <hr class= "text-white-50">
-      <h1 class="text-center fw-bold fs-1 text-white-50 placeholder-wave">
-        <span class="placeholder col-1.5 bg-black">Featured Menu</span>
-      </h1>
-      <h1 class="text-center fw-bold fs-1 text-white-50">Featured Menu</h1>
-      <hr class= "text-white-50">
-           <!-- Accordion here -->
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item bg-black ">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button class="accordion-button collapsed fw-bold fs-1 text-white-50 bg-black bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Premium Milktea Click here
-              </button>
-            </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <section > 
-                  <!-- 1st Menu here Milktea-->
-                  <div id="milktea"></div>
-                  <!-- 1st row product of 5 in desktop version -->
-                  <div class="row row-cols-1 row-cols-md-5 g-4 text-center">
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block" style="width: 15rem;">
-                        <img src="./products/cookies-1.png" class="card-img-top bg-black" alt="...">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title text-white">Cookies n' Cream</h5>
-                          <p class="card-text">A flavor of ice cream made by combining vanilla or sweet cream ice cream with chunks of chocolate cookie</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block" style="width: 15rem;">
-                        <img src="./products/chocolate-1.gif" class="card-img-top bg-black" alt="..." >
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title text-white">Chocolate</h5>
-                          <p class="card-text"> Chocolate is made from the fruit of cacao trees, which are native to Central and South America.</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block" style="width: 15rem;">
-                        <img src="./products/okinawa-1.gif" class="card-img-top bg-black" alt="...">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title text-white">Okinawa</h5>
-                          <p class="card-text">Okinawa milk tea is a tasty blend of black tea, milk, and sweetener.</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block" style="width: 15rem;">
-                        <img src="./products/red-velvet-1.jpg" class="card-img-top bg-black" alt="...">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title text-white">Red Velvet</h5>
-                          <p class="card-text">Red Velvet Cake is a chocolate cake, moist texture, unique buttermilk flavor and a red hue due to the addition of a red coloring like beet juice.</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block" style="width: 15rem;">
-                        <img src="./products/matcha-1.gif" class="card-img-top bg-black" alt="...">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title text-white">Matcha</h5>
-                          <p class="card-text">Matcha is a form of green tea made from a powdered version of the actual tea leaves.</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                  <!-- 2nd row product of 5 in desktop version -->
-                  <div class="row row-cols-1 row-cols-md-5 g-4 text-center">
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block" style="width: 15rem;">
-                        <img src="./products/strawberry-1.gif" class="card-img-top bg-black" alt="...">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title text-white">Strawberry</h5>
-                          <p class="card-text">The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness.</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block" style="width: 15rem;">
-                        <img src="./products/mango-1.gif" class="card-img-top bg-black" alt="...">
-                        <div class="card-body bg-black">
-                          <h5 class="card-title text-white">Mango</h5>
-                          <p class="card-text">A mango is an edible stone fruit produced by the tropical tree Mangifera indica. It is believed to have originated between northwestern Myanmar, Bangladesh, ...</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
-                        <img src="./products/darkchoco-1.jpg" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title text-white">Dark Chocolate</h5>
-                          <p class="card-text">Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate.</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <!-- 3rd row product of 5 in desktop version -->
-                  <div class="row row-cols-1 row-cols-md-5 g-4 text-center">
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                </div>   
-              </section>
-              </div>
+ 
+        
+      <div class="row">
+        <div class="col-sm-7 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              
+              <section>     
+                <hr class= "text-white-50">
+                <h1 class="text-center fw-bold fs-1 text-white-50 placeholder-wave">
+                  <span class="placeholder col-1.5 bg-black">Featured Menu</span></h1>
+                <hr class= "text-white-50">
+          
+              
+          
+                     <!-- Accordion 1st starts here -->
+                     
+                          <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item bg-black bg ">
+                              <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed fw-bold fs-1 text-white-50 bg-black bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Premium Milktea Click here
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  <section > 
+                                    <!-- 1st Menu here Milktea-->
+                                    <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+                                      <div class="col">
+                                        <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
+                                          <img class="img-fluid" src="./products/chocolate-1.gif" class="card-img-top bg-black" alt="..." >
+                                            <div class="card-body text-white-50 bg-black">
+                                                <h5 class="card-title text-white">Cookies n' Cream</h5>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                 <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                             </div>
+                                        </div>
+                                      </div>
+                                      <div class="col">
+                                        <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
+                                          <img class="img-fluid" src="./products/chocolate-1.gif" class="card-img-top bg-black" alt="..." >
+                                           <div class="card-body text-white-50 bg-black">
+                                               <h5 class="card-title text-white">Chocolate</h5>
+                                               <p class="card-text"></p>
+                                           </div>
+                                           <div class="card-footer">
+                                                <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                           </div>
+                                        </div>
+                                      </div>
+                                      <div class="col">
+                                        <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
+                                          <img class="img-fluid" src="./products/okinawa-1.gif" class="card-img-top bg-black" alt="...">
+                                            <div class="card-body text-white-50 bg-black">
+                                                <h5 class="card-title text-white">Okinawa</h5>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="col">
+                                        <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
+                                          <img class="img-fluid" src="./products/red-velvet-1.jpg" class="card-img-top bg-black" alt="...">
+                                            <div class="card-body text-white-50 bg-black">
+                                                <h5 class="card-title text-white">Red Velvet</h5>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="col">
+                                        <div class="card h-100card p-3 text-white-50 bg-black mx-auto d-block">
+                                          <img class="img-fluid" src="./products/matcha-1.gif" class="card-img-top bg-black" alt="...">
+                                            <div class="card-body text-white-50 bg-black">
+                                                 <h5 class="card-title text-white">Matcha</h5>
+                                                 <p class="card-text"></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                           </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                    <!-- 2nd row product of 5 in desktop version -->
+                                    
+                                  <!-- 3rd row product of 5 in desktop version -->                                                  
+                                </section>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- accordion-item 2nd here -->
+                            <div class="accordion-item bg-black">
+                              <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed fw-bold fs-1 text-white-50 bg-black bg-gradient text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Refresing Fruit Tea Click here
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  <section>
+                                    <!-- second product -FRUIT TEA here -->
+                                  <div id="fruittea"></div>
+                                  <h1 class="fw-bold fs-1 ms-3 text-white-50">Fruit Tea</h1>              
+                                  <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+                                  <div class="col">
+                                    <div class="card h-100card p-3 text-white-50 bg-black">
+                                      <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
+                                           <div class="card-body text-white-50 bg-black">
+                                              <h5 class="card-title">Card title</h5>
+                                              <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                                           </div>
+                                           <div class="card-footer">
+                                              <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                           </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="card h-100card p-3 text-white-50 bg-black">
+                                      <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
+                                           <div class="card-body text-white-50 bg-black">
+                                              <h5 class="card-title">Card title</h5>
+                                              <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                                           </div>
+                                           <div class="card-footer">
+                                              <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                           </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="card h-100card p-3 text-white-50 bg-black">
+                                      <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
+                                           <div class="card-body text-white-50 bg-black">
+                                              <h5 class="card-title">Card title</h5>
+                                              <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                                           </div>
+                                           <div class="card-footer">
+                                              <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                           </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="card h-100card p-3 text-white-50 bg-black">
+                                      <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
+                                           <div class="card-body text-white-50 bg-black">
+                                              <h5 class="card-title">Card title</h5>
+                                              <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                                           </div>
+                                           <div class="card-footer">
+                                              <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                           </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="card h-100card p-3 text-white-50 bg-black">
+                                      <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
+                                            <div class="card-body text-white-50 bg-black">
+                                               <h5 class="card-title">Card title</h5>
+                                               <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                                            </div>
+                                            <div class="card-footer">
+                                               <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                            </div>
+                                    </div>
+                                  </div>
+                                </div>   
+                              </section>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- accordion item three here -->
+                            <div class="accordion-item bg-black">
+                              <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed fw-bold fs-1 text-white-50 bg-black bg-gradient text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Want Milkshake Click here
+                                </button>
+                              </h2>
+                              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  <section>
+                                    <!-- 3rd product here Milk Shake -->
+                                    <div id="milkshake"></div>
+                                    <div class="row row-cols-1 row-cols-md-4 g-4 text-center">                             
+                                      <div class="col">
+                                        <div class="card h-100card p-3 text-white-50 bg-black">
+                                          <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
+                                            <div class="card-body text-white-50 bg-black">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="col">
+                                        <div class="card h-100card p-3 text-white-50 bg-black">
+                                          <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
+                                            <div class="card-body text-white-50 bg-black">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="col">
+                                        <div class="card h-100card p-3 text-white-50 bg-black">
+                                          <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
+                                            <div class="card-body text-white-50 bg-black">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="col">
+                                        <div class="card h-100card p-3 text-white-50 bg-black">
+                                          <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
+                                            <div class="card-body text-white-50 bg-black">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="col">
+                                        <div class="card h-100card p-3 text-white-50 bg-black">
+                                          <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
+                                            <div class="card-body text-white-50 bg-black">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted text-white-50">Last updated 3 mins ago</small>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>   
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- accordion item three here -->
+                            <div class="accordion-item bg-black">
+                              <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed fw-bold fs-1 text-white-50 bg-black bg-gradient text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Snacks here
+                                </button>
+                              </h2>
+                              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  <section>
+                                    <!-- 4thd product here Snacks -->
+                                          <div>
+                                            <ul>
+                                              <li class="text-white fs-5 fw-bold">a</li>
+                                              <li class="text-white fs-5 fw-bold">a</li>
+                                              <li class="text-white fs-5 fw-bold">a</li>
+                                              <li class="text-white fs-5 fw-bold">a</li>
+                                              <li class="text-white fs-5 fw-bold">a</li>
+                                            </ul>
+                                         </div>   
+                                 </section>
+                                </div>
+                              </div>
+                              <hr class="text-white">
+                            </div>
+                          </div>
+                      </section>
+               
+               
+            
+              
             </div>
-          </div>
-          <!-- accordion-item two here -->
-          <div class="accordion-item bg-black">
-            <h2 class="accordion-header" id="flush-headingTwo">
-              <button class="accordion-button collapsed fw-bold fs-1 text-white-50 bg-black bg-gradient text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              Refresing Fruit Tea Click here
-              </button>
-            </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <section>
-                  <!-- second product -FRUIT TEA here -->
-                 <div id="fruittea"></div>
-                 <h1 class="fw-bold fs-1 ms-3 text-white-50">Fruit Tea</h1>
-                <!-- 3rd row product of 5 in desktop version -->
-                <div class="row row-cols-1 row-cols-md-5 g-4 text-center">
-                 <div class="col">
-                   <div class="card h-100card p-3 text-white-50 bg-black">
-                     <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                     <div class="card-body text-white-50 bg-black">
-                       <h5 class="card-title">Card title</h5>
-                       <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                     </div>
-                     <div class="card-footer">
-                       <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="col">
-                   <div class="card h-100card p-3 text-white-50 bg-black">
-                     <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                     <div class="card-body text-white-50 bg-black">
-                       <h5 class="card-title">Card title</h5>
-                       <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                     </div>
-                     <div class="card-footer">
-                       <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="col">
-                   <div class="card h-100card p-3 text-white-50 bg-black">
-                     <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                     <div class="card-body text-white-50 bg-black">
-                       <h5 class="card-title">Card title</h5>
-                       <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                     </div>
-                     <div class="card-footer">
-                       <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="col">
-                   <div class="card h-100card p-3 text-white-50 bg-black">
-                     <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                     <div class="card-body text-white-50 bg-black">
-                       <h5 class="card-title">Card title</h5>
-                       <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                     </div>
-                     <div class="card-footer">
-                       <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="col">
-                   <div class="card h-100card p-3 text-white-50 bg-black">
-                     <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                     <div class="card-body text-white-50 bg-black">
-                       <h5 class="card-title">Card title</h5>
-                       <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                     </div>
-                     <div class="card-footer">
-                       <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="col">
-                   <div class="card h-100card p-3 text-white-50 bg-black">
-                     <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                     <div class="card-body text-white-50 bg-black">
-                       <h5 class="card-title">Card title</h5>
-                       <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                     </div>
-                     <div class="card-footer">
-                       <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                     </div>
-                   </div>
-                 </div>
-              </div>   
-             </section>
-              </div>
-            </div>
-          </div>
-          <!-- accordion item three here -->
-          <div class="accordion-item bg-black">
-            <h2 class="accordion-header" id="flush-headingThree">
-              <button class="accordion-button collapsed fw-bold fs-1 text-white-50 bg-black bg-gradient text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Want Milkshake Click here
-              </button>
-            </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <section>
-                  <!-- 3rd product here Milk Shake -->
-                  <div id="milkshake"></div>
-                   <div class="row row-cols-1 row-cols-md-5 g-4 text-center">
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100card p-3 text-white-50 bg-black">
-                        <img src="./products/cappucino-1.gif" class="card-img-top bg-black" alt="..." height="400px">
-                        <div class="card-body text-white-50 bg-black">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted text-white-50">Last updated 3 mins ago</small>
-                        </div>
-                      </div>
-                    </div>
-                 </div>   
-                </section>
-              </div>
-            </div>
-          </div>
-          <!-- accordion item three here -->
-          <div class="accordion-item bg-black">
-            <h2 class="accordion-header" id="flush-headingFour">
-              <button class="accordion-button collapsed fw-bold fs-1 text-white-50 bg-black bg-gradient text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-              Snacks here
-              </button>
-            </h2>
-            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <section>
-                  <!-- 4thd product here Snacks -->
-                  <div>
-                    <ul>
-                      <li class="text-white fs-5 fw-bold">a</li>
-                      <li class="text-white fs-5 fw-bold">a</li>
-                      <li class="text-white fs-5 fw-bold">a</li>
-                      <li class="text-white fs-5 fw-bold">a</li>
-                      <li class="text-white fs-5 fw-bold">a</li>
-                    </ul>
-                 </div>   
-                </section>
-              </div>
-            </div>
-            <hr class="text-white">
           </div>
         </div>
-    </section>
-  
-        </div>
-    </section>
-  
-  
-    
-  <!-- Delivery and Pick Up section -->
-  <section class="container-fluid">
-    <div id="services"></div>
-    <h1 class="fw-bold fs-1 ms-3 text-white-50 text-center">Services</h1>
-    <div class="row">
-      <div class="col-sm-6 mb-3 mb-sm-0">
-        <div class="card bg-black">
-          <div class="card-body text-center d-flex-column">
-            <div>
-            <h5 class="card-title fw-bold fs-3 ms-3 text-white-50">For Delivery</h5>
-            </div>
-            <div>
-              <a href="https://www.youtube.com" class="btn btn-primary p-0"><img src="./logo/deliver.jpg" alt="" height="450px"></a>
-            </div>
-            <div>
-            <a href="https://www.youtube.com" class="btn btn-primary fw-bold fs-5 ms-5 me-5 text-white">Click Here</a>
+           <!-- Delivery and Pick Up section -->
+        <div class="col-sm-5">
+          <div class="card">
+            <div class="card-body">
+                                        
+                  <section class="container-fluid">                              
+                    <div class="d-flex-column">
+                      <div class="col-sm mb-3 mb-sm-0">
+                        <div class="card bg-black">
+                          <div class="card-body text-center d-flex-column">
+                                    <div>
+                                        <h5 class="card-title fw-bold fs-3 ms-3 text-white-50">For Delivery</h5>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.youtube.com" class="btn btn-primary p-0"><img src="./logo/deliver.jpg" alt="" height="250px" width="350px"></a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.youtube.com" class="btn btn-primary fw-bold fs-5 ms-5 me-5 text-white">Click Here</a>
+                                    </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm">
+                        <div class="card bg-black">
+                          <div class="card-body text-center d-flex-column">
+                                    <div>
+                                        <h5 class="card-title fw-bold fs-3 ms-3 text-white-50">Pick Up Location</h5>
+                                    </div>
+                                    <div>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d243.06385765139436!2d123.5958282673637!3d12.906324689972795!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1679075002501!5m2!1sen!2sph" height="250px" width="350px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.youtube.com" class="btn btn-primary fw-bold fs-5 ms-5 me-5 text-white">Click Here</a>
+                                    </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                
+                   </section>
+              
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
-        <div class="card bg-black">
-          <div class="card-body text-center d-flex-column">
-              <div>
-                <h5 class="card-title fw-bold fs-3 ms-3 text-white-50">Pick Up Location</h5>
-              </div>
-              <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d243.06385765139436!2d123.5958282673637!3d12.906324689972795!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1679075002501!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-              <div>
-                <a href="https://www.youtube.com" class="btn btn-primary fw-bold fs-5 ms-5 me-5 text-white">Click Here</a>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        
       <!-- footer -->
       <footer id="footer-contacts">  
         <h1 class="fw-bold fs-1 text-white-50 text-center mt-5 mb-0 pb-0">Connect with us.. .</h1> 
@@ -668,6 +488,7 @@
         </div>
     </footer>
 
+   
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
