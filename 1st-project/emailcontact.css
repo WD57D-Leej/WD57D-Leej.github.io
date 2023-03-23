@@ -1,0 +1,119 @@
+
+body{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: rgb(227, 214, 167);
+}
+body header{
+    background-color: rgb(207, 170, 37);
+    padding-bottom: 16px;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header h1{
+    margin:0 auto;
+    color: whitesmoke;
+    padding-bottom: 5px;
+   
+}
+header p{
+    margin-top: 5px;
+    font-size: 13px;
+    color: whitesmoke;
+    margin-right: 50px;
+    
+}
+body section{
+    width: 100%;
+    background-color: whitesmoke;
+    color: rgb(207, 170, 37);;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container h2{
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+form{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container .input-row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    font-size: 14px;
+}
+.container .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    border-bottom: 1px solid  rgb(207, 170, 37);
+}
+textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color:whitesmoke;
+    outline: none;
+    margin-top: 10px;
+}
+button{
+    background-color:rgb(207, 170, 37) ;
+    color: whitesmoke;
+    border:none;
+    padding: 3px 20px 3px 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 50px;
+}
+button:hover{
+    background-color:rgb(197, 179, 116) ;
+}
+button:active{
+    background-color: rgb(157, 129, 28);
+}
+footer{
+    text-align: center;
+}
+footer .BacktoHome {
+    margin-top: 20px;
+    padding: 0 60px;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.copyrigth{
+    color: rgb(158, 130, 29);
+    padding: 30px;
+}
+
+    
+@media screen and (max-width:600px){
+    .container .input-row{
+        display: block;
+    }
+    body{
+        margin:0;
+    }
+    .container .input-row{     
+        padding-bottom: 0px;
+    }
+    .container .input-group{
+        padding-bottom: 20px;
+    }
+}
