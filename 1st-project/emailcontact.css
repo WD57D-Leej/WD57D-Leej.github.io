@@ -3,10 +3,10 @@ body{
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 5%;
-    background-color: rgb(227, 214, 167);
+    background-color: rgb(203, 228, 202);
 }
 body header{
-    background-color: rgb(207, 170, 37);
+    background-color: rgb(33, 159, 33);
     padding-bottom: 16px;
     padding-top: 20px;
     padding-left: 50px;
@@ -29,7 +29,7 @@ header p{
 body section{
     width: 100%;
     background-color: whitesmoke;
-    color: rgb(207, 170, 37);;
+    color: rgb(33, 159, 33);
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
@@ -63,7 +63,7 @@ input{
     border: none;
     outline: none;
     background-color: whitesmoke;
-    border-bottom: 1px solid  rgb(207, 170, 37);
+    border-bottom: 1px solid  rgb(33, 159, 33);
 }
 textarea{
     width: 100%;
@@ -73,7 +73,7 @@ textarea{
     margin-top: 10px;
 }
 button{
-    background-color:rgb(207, 170, 37) ;
+    background-color:rgb(33, 159, 33) ;
     color: whitesmoke;
     border:none;
     padding: 3px 20px 3px 20px;
@@ -83,10 +83,10 @@ button{
     margin-bottom: 50px;
 }
 button:hover{
-    background-color:rgb(197, 179, 116) ;
+    background-color:rgb(136, 197, 116) ;
 }
 button:active{
-    background-color: rgb(157, 129, 28);
+    background-color: rgb(28, 157, 67);
 }
 footer{
     text-align: center;
@@ -98,7 +98,7 @@ footer .BacktoHome {
     color: whitesmoke;
 }
 .copyrigth{
-    color: rgb(158, 130, 29);
+    color: rgb(21, 98, 52);
     padding: 30px;
 }
 
@@ -106,6 +106,10 @@ footer .BacktoHome {
 @media screen and (max-width:600px){
     .container .input-row{
         display: block;
+    }
+    .container{
+        margin-left: 10px;
+        margin-right: 10px;
     }
     body{
         margin:0;

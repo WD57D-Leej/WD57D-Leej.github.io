@@ -17,7 +17,9 @@ nav a:active{
 /* row css for background */
 
 
-
+.holder{
+    background-color: aliceblue;
+}
 .row{
   background-image: url(./logo/antok.jpg);
   background-size: cover;
