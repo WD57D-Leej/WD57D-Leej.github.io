@@ -20,12 +20,7 @@ nav a:active{
 .holder{
     background-color: aliceblue;
 }
-.row{
-  background-image: url(./logo/antok.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
 .delivery{
     background-color: transparent
 }
@@ -42,9 +37,7 @@ nav a:active{
     transform: scale(1.1);
 }
 
-.socialmedia-button{
-    background-color: rgb(23, 78, 78);
-}
+
 /* footer */   
 .footer-socialmedia-button  .btn:hover{
     background-color: rgb(216, 222, 241);
@@ -72,8 +65,8 @@ hr{
     
 }
 .connect-with-us{
-    background-color: rgb(48, 44, 49);
+   
 }
 .socialmedia-button{
-    background-color: rgb(48, 44, 49);
+   
 }
