@@ -120,14 +120,21 @@ undefined
 NaN
  */
    
-let pickNum = prompt('Enter you number: ');
-function Number(userDefine)
+let number = '2';
+
+let remainder = number % 2;
+
+if (number == '' )
 {
-         if  (userDefine == 1)
-             {console.log('Odd Number');}
-    else if  (userDefine == 4)
-             {console.log('Even Number');}
-    else     (userDefine == '')
-             {console.log('unexpected input');}
+    console.log('wrong input');
 }
-Number(userDefine);
+
+else if (remainder == 0)
+{
+    console.log(number);
+    console.log('Even number');
+}
+else 
+{
+    console.log('Odd number');
+} 
