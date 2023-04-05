@@ -120,21 +120,23 @@ undefined
 NaN
  */
    
-let number = '2';
+let number = prompt('display: ');
 
 let remainder = number % 2;
 
-if (number == '' )
+if (remainder = number % 2 )
 {
-    console.log('wrong input');
+   
+    console.log('Odd number');
 }
 
 else if (remainder == 0)
 {
-    console.log(number);
+   
     console.log('Even number');
 }
 else 
 {
-    console.log('Odd number');
+    console.log('Wrong input');
 } 
+
